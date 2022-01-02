@@ -1,6 +1,6 @@
 import sys
 sys.path.append("slush_Books\classes") 
-from  interface import StoreInterface
+from  classes.interface import StoreInterface
 
 
 StoreInterface("Slush Books").run()
